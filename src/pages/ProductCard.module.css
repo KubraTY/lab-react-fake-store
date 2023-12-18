@@ -1,0 +1,25 @@
+.productCard{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px black;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.pic{
+width: 200px;
+}
+.productCard img{
+    max-width: 100%;
+}
+.desc{
+    font-size: 12px;
+    width: 20%;
+}
+.title{
+    width: 30%;
+    word-wrap: break-word;
+}
